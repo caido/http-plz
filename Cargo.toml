@@ -8,10 +8,10 @@ license = "MIT"
 edition = "2024"
 
 [dependencies]
-body-plz = "0.0.55"
+body-plz = { git = "ssh://git@github.com/caido/primitives.git", rev = "b24d61a8602d3dc19881641dd527ee727b6908ac" }
 bytes = "1.11.1"
-decompression-plz = "0.0.32"
-header-plz = "0.0.50"
+decompression-plz = { git = "ssh://git@github.com/caido/primitives.git", rev = "b24d61a8602d3dc19881641dd527ee727b6908ac" }
+header-plz = { git = "ssh://git@github.com/caido/primitives.git", rev = "b24d61a8602d3dc19881641dd527ee727b6908ac" }
 thiserror = "2.0.18"
 bon = "3.9.1"
 

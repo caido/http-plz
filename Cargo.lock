@@ -35,8 +35,7 @@ dependencies = [
 [[package]]
 name = "body-plz"
 version = "0.0.55"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bca60227b6707d4aec6e0ce57e34bb9c3142e906be38b3b9f07fb977f1083b67"
+source = "git+ssh://git@github.com/caido/primitives.git?rev=b24d61a8602d3dc19881641dd527ee727b6908ac#b24d61a8602d3dc19881641dd527ee727b6908ac"
 dependencies = [
  "buffer-plz",
  "bytes",
@@ -170,8 +169,7 @@ dependencies = [
 [[package]]
 name = "decompression-plz"
 version = "0.0.32"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c321172866b38287e815aec84388239a2115da86830fc564e2c38e764f58aa82"
+source = "git+ssh://git@github.com/caido/primitives.git?rev=b24d61a8602d3dc19881641dd527ee727b6908ac#b24d61a8602d3dc19881641dd527ee727b6908ac"
 dependencies = [
  "body-plz",
  "brotli",
@@ -274,8 +272,7 @@ checksum = "4f467dd6dccf739c208452f8014c75c18bb8301b050ad1cfb27153803edb0f51"
 [[package]]
 name = "header-plz"
 version = "0.0.50"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2dbfb70309a4acbb4390ed60986fc59777045cdfae811a78c19f1c043130a0b0"
+source = "git+ssh://git@github.com/caido/primitives.git?rev=b24d61a8602d3dc19881641dd527ee727b6908ac#b24d61a8602d3dc19881641dd527ee727b6908ac"
 dependencies = [
  "buffer-plz",
  "bytes",
